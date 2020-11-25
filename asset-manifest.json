@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/aida/static/css/main.1f157d36.chunk.css",
+    "main.js": "/aida/static/js/main.fa3e2772.chunk.js",
+    "main.js.map": "/aida/static/js/main.fa3e2772.chunk.js.map",
+    "runtime-main.js": "/aida/static/js/runtime-main.1c3edef5.js",
+    "runtime-main.js.map": "/aida/static/js/runtime-main.1c3edef5.js.map",
+    "static/css/2.43b2b750.chunk.css": "/aida/static/css/2.43b2b750.chunk.css",
+    "static/js/2.c36aa6f8.chunk.js": "/aida/static/js/2.c36aa6f8.chunk.js",
+    "static/js/2.c36aa6f8.chunk.js.map": "/aida/static/js/2.c36aa6f8.chunk.js.map",
+    "static/js/3.80fb81f2.chunk.js": "/aida/static/js/3.80fb81f2.chunk.js",
+    "static/js/3.80fb81f2.chunk.js.map": "/aida/static/js/3.80fb81f2.chunk.js.map",
+    "index.html": "/aida/index.html",
+    "service-worker.js": "/aida/service-worker.js",
+    "service-worker.js.map": "/aida/service-worker.js.map",
+    "static/css/2.43b2b750.chunk.css.map": "/aida/static/css/2.43b2b750.chunk.css.map",
+    "static/css/main.1f157d36.chunk.css.map": "/aida/static/css/main.1f157d36.chunk.css.map",
+    "static/js/2.c36aa6f8.chunk.js.LICENSE.txt": "/aida/static/js/2.c36aa6f8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c3edef5.js",
+    "static/css/2.43b2b750.chunk.css",
+    "static/js/2.c36aa6f8.chunk.js",
+    "static/css/main.1f157d36.chunk.css",
+    "static/js/main.fa3e2772.chunk.js"
+  ]
+}
