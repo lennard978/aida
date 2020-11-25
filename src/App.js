@@ -17,8 +17,8 @@ function App() {
     <>
       <Routes>
         <Route path="/aida" element={<Home />} />
-        <Route path="/lessons" element={<Lessons />} />
-        <Route path="/lessons/:id" element={<LessonsLearn />} />
+        <Route path="/aida/lessons" element={<Lessons />} />
+        <Route path="/aida/lessons/:id" element={<LessonsLearn />} />
         <Route path="/grammary" element={<Grammary />} />
         <Route path="/grammary/:id" element={<GrammaryLearn />} />
         <Route path="/pronounce" element={<Pronounce />} />
