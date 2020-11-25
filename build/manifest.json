@@ -1,6 +1,6 @@
 {
-  "short_name": "German",
-  "name": "Learn German",
+  "short_name": "Learn",
+  "name": "Learn React",
   "icons": [
     {
       "src": "favicon.ico",
