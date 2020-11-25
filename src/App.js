@@ -17,15 +17,15 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="lessons" element={<Lessons />} />
-        <Route path="lessons/:id" element={<LessonsLearn />} />
-        <Route path="grammary" element={<Grammary />} />
-        <Route path="grammary/:id" element={<GrammaryLearn />} />
-        <Route path="pronounce" element={<Pronounce />} />
-        <Route path="cards" element={<Cards />} />
-        <Route path="cards/:id" element={<CardsLearning />} />
-        <Route path="test" element={<Test />} />
-        <Route path="test/:id" element={<TestLearning />} />
+        <Route path="/lessons" element={<Lessons />} />
+        <Route path="/lessons/:id" element={<LessonsLearn />} />
+        <Route path="/grammary" element={<Grammary />} />
+        <Route path="/grammary/:id" element={<GrammaryLearn />} />
+        <Route path="/pronounce" element={<Pronounce />} />
+        <Route path="/cards" element={<Cards />} />
+        <Route path="/cards/:id" element={<CardsLearning />} />
+        <Route path="/test" element={<Test />} />
+        <Route path="/test/:id" element={<TestLearning />} />
       </Routes>
     </>
   );
