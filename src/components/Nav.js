@@ -31,13 +31,13 @@ export default function Nav() {
           id="Navbar"
         >
           <a
-            href="/"
+            href="aida/"
             className="nav-link nav-item text-light active text-uppercase"
           >
             Home
           </a>
           <a
-            href="/lessons"
+            href="aida/lessons"
             className="nav-link nav-item text-info text-uppercase"
           >
             Lessons
