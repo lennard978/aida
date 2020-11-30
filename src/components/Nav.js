@@ -11,7 +11,7 @@ export default function Nav() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top shadow">
         <a href="/" className="navbar-brand font-weight-light">
-          <span className="text-danger font-weight-bolder">AIDAPerla</span>
+          <span className="text-danger font-weight-bolder">AidaPerla</span>
         </a>
         <button
           className="navbar-toggler shadow"
