@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './nav.css';
 
 export default function Nav() {
@@ -29,43 +30,44 @@ export default function Nav() {
             isNavCollapsed ? 'collapse' : ''
           } navbar-collapse bg-dark py-2`}
           id="Navbar"
+          onClick={!isNavCollapsed ? true : false}
         >
-          <a
-            href="aida/"
+          <Link
+            to="/"
             className="nav-link nav-item text-light active text-uppercase"
           >
             Home
-          </a>
-          <a
-            href="aida/lessons"
+          </Link>
+          <Link
+            to="lessons"
             className="nav-link nav-item text-info text-uppercase"
           >
             Lessons
-          </a>
-          <a
-            href="/grammary"
+          </Link>
+          <Link
+            to="grammary"
             className="nav-link nav-item text-info text-uppercase"
           >
             Grammary
-          </a>
-          <a
-            href="/pronounce"
+          </Link>
+          <Link
+            to="pronounce"
             className="nav-link nav-item text-info text-uppercase"
           >
             Pronounce
-          </a>
-          <a
-            href="/cards"
+          </Link>
+          <Link
+            to="cards"
             className="nav-link nav-item text-info text-uppercase"
           >
             Cards
-          </a>
-          <a
-            href="/test"
+          </Link>
+          {/* <Link
+            to="test"
             className="nav-link nav-item text-info text-uppercase"
           >
             Test
-          </a>
+          </Link> */}
         </div>
       </nav>
     </>

@@ -11,10 +11,10 @@ export default function Grammary() {
       <div className="container">
         <div className="row justify-content-center">
           {btn.map((index) => (
-            <div key={index.id} className="col-12">
+            <div key={index.id} className="col-6">
               <Link
                 to={`${index.id}`}
-                className={`btn btn-block ${index.btnColor} mb-2`}
+                className={`btn btn-block ${index.btnColor} py-4 mb-2`}
               >
                 {index.btnTitle}
               </Link>

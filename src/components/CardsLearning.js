@@ -18,6 +18,12 @@ export default function CardsLearning() {
       setDisabled(true);
     }
   };
+  const prevHandler = () => {
+    if (addOne === 0) {
+      setDisabled(true);
+    }
+    setAddOne(addOne - 1);
+  };
 
   return (
     <div className="cardslearning">
@@ -40,13 +46,21 @@ export default function CardsLearning() {
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-6">
+          <div className="col-12">
+            <button
+              disabled={addOne === 0 ? 'enable' : disabled}
+              onClick={prevHandler}
+              className="btn btn-danger w-50 mt-3"
+            >
+              Prev
+            </button>
+
             <button
               disabled={disabled}
               onClick={addOneHandler}
-              className="btn btn-danger w-100 mt-3"
+              className="btn btn-danger w-50 mt-3"
             >
-              Next Card
+              Next
             </button>
           </div>
         </div>
