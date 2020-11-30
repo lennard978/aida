@@ -8,7 +8,7 @@ import Grammary from './components/Grammary';
 import GrammaryLearn from './components/GrammaryLearn';
 import Pronounce from './components/Pronounce';
 import Cards from './components/Cards';
-// import Test from './components/Test';
+import Test from './components/Test';
 import CardsLearning from './components/CardsLearning';
 // import TestLearning from './components/TestLearning';
 
